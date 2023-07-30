@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/rajeev_gupta/rajeev_ws/src/MECANUM_DRIVE/mecanum2/include/**",
+        "/home/rajeev_gupta/rajeev_ws/src/MECH_DEPT_PROJECT/my_omni_drive_description/include/**",
+        "/home/rajeev_gupta/rajeev_ws/src/ROTF3/rotf3/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
