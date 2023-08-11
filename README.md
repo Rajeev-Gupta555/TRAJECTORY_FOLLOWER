@@ -19,6 +19,19 @@ The "Path_Planner" class found in the trajectory_follower* files can be given a 
 To help you see the robot's progress, I've used a library called Matplotlib. When the robot reaches its goal, a picture appears that shows the desired path in green and the actual path the robot took in red. This gives a visual representation of how well the robot followed the path.
 
 ## Output images:
-Without tuning any physical parameter:
+#### *Without tuning any physical parameter*:
 ![Alt Text](https://github.com/Rajeev-Gupta555/TRAJECTORY_FOLLOWER/blob/main/trajectory_follower/images/result_before_tuning.png)
 
+#### *After tuning physical parameters (eg. multiplication factor that drives the velocity from normal velocity to tangential velocity w.r.t the curve...)*
+
+Point1:
+![Alt Text](https://github.com/Rajeev-Gupta555/TRAJECTORY_FOLLOWER/blob/main/trajectory_follower/images/point.png)
+
+Point2:
+![Alt Text](https://github.com/Rajeev-Gupta555/TRAJECTORY_FOLLOWER/blob/main/trajectory_follower/images/point2.png)
+
+Parabola:
+![Alt Text](https://github.com/Rajeev-Gupta555/TRAJECTORY_FOLLOWER/blob/main/trajectory_follower/images/parabola.png)
+
+Parabola_Y_Shifted:
+![Alt Text](https://github.com/Rajeev-Gupta555/TRAJECTORY_FOLLOWER/blob/main/trajectory_follower/images/parabola_y_shifted.png)
