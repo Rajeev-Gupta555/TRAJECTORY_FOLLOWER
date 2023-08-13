@@ -6,8 +6,10 @@ class Holonomic_drive():
         self.wheel_separation = wheel_separation
         self.posn = [0.0, 0.0, 0.0]
         self.cmd_vel = [0.0, 0.0, 0.0]
-        self.forward_vel = 0.15         #m/s
-        self.angular_vel = 1.00         #rad/s
+        self.max_linear_vel = 0.15          #m/s
+        self.max_angular_vel = 1            #rad/s
+        self.forward_vel = self.max_linear_vel
+        self.angular_vel = self.max_angular_vel
     
     def update_odom(self, t_step):
         # vl = self.cmd_vel[0] - self.cmd_vel[2] * self.wheel_separation / 2.0
